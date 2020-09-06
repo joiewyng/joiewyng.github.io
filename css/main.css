@@ -64,15 +64,15 @@ a:hover {
 .icon {
   height: 25px;
   width: 25px;
-  margin-right: 3px;
+  margin-right: 4px;
   opacity: 80%;
-  border: 5px #FFFFFF solid;
+  border: 3px #FFFFFF solid;
   border-radius: 25px;
 }
 
 .icon:hover {
   opacity: 100%;
-  border: 5px #B31B1B solid;
+  border: 3px #B31B1B solid;
   border-radius: 25px;
 }
 
