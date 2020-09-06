@@ -17,6 +17,9 @@ ul{
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
 }
 
+.red-text {
+  color: #B31B1B;
+}
 
 .section-link {
   margin: 7px 2px;
@@ -24,7 +27,8 @@ ul{
 }
 
 a:hover {
-  color: #3675ade0;
+  /* color: #3675ade0; */
+  color: #B31B1B;
 }
 
 a {
@@ -52,6 +56,27 @@ a:hover {
 .page {
   padding: 70px 70px 70px 270px;
 }
+
+.socials {
+  margin: 25px 0px;
+}
+
+.icon {
+  height: 25px;
+  width: 25px;
+  margin-right: 3px;
+  opacity: 80%;
+  border: 5px #FFFFFF solid;
+  border-radius: 25px;
+}
+
+.icon:hover {
+  opacity: 100%;
+  border: 5px #B31B1B solid;
+  border-radius: 25px;
+}
+
+
 
 
 /* Work */
