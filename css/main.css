@@ -148,9 +148,15 @@ a:hover {
 } 
 
 /* About */
-#about {
-  /* margin-top: -10px; */
+
+.abt-image {
+  padding-left: 15px;
 }
+
+.abt-text {
+  padding-right: 50px;
+}
+
 /* old nav bar formatting */
 #logo {
   width: 120px;
@@ -194,12 +200,6 @@ p {
   font-family: "Courier New";
   font-size: 30px;
 }
-
-
-.abt-image{
-  padding-right: 0px;
-}
-
 
 /* resume */
 .resume .container {
