@@ -96,12 +96,24 @@ a:hover {
 }
 
 .left-col {
-  width: 40%;
+  width: 45%;
   padding: 0px 15px;
 }
 
 .right-col {
-  width: 60%;
+  width: 55%;
+}
+
+.read-more {
+  color: rgb(167, 164, 164);
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.read-more:hover {
+  color:#B31B1B;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1030px) {
@@ -123,6 +135,12 @@ a:hover {
 
 .proj-image{
   max-width: 90%;
+  height: auto;
+  padding: 10px 0px;
+}
+
+.proj-image-wider{
+  max-width: 100%;
   height: auto;
   padding: 10px 0px;
 }
@@ -150,6 +168,35 @@ a:hover {
   line-height: 1.5;
   opacity: 80%;
 } 
+
+.label {
+  font-size: 14px;
+  color: rgb(167, 164, 164);
+  font-weight: 1000;
+  letter-spacing: 1.02;
+}
+
+.project-details {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.project-detail {
+  margin: 10px 0px;
+}
+
+.divider {
+  opacity: 40%;
+  width: 100px;
+}
+
+.demo-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 80%;
+  padding-right: 50px;
+}
 
 /* About */
 
