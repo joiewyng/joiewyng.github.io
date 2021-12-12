@@ -131,6 +131,18 @@ a:hover {
     width: 100%;
     padding: 0px 15px;
   }
+
+  .project-links {
+    padding-bottom: 20px;
+  }  
+
+  video {
+    width: 100%;
+  }
+
+  .demo-description {
+    padding-right: 0px !important;
+  }
 }
 
 .proj-image{
