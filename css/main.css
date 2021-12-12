@@ -198,6 +198,18 @@ a:hover {
   padding-right: 50px;
 }
 
+.project-link {
+  color: rgb(167, 164, 164);
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+.project-links {
+  color: rgb(167, 164, 164);
+  padding-top: 10px;
+}
+
 /* About */
 
 .abt-image {
