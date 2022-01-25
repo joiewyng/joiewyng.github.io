@@ -132,6 +132,10 @@ a:hover {
     padding: 0px 15px;
   }
 
+  a {
+    position: relative;
+  }
+
   .project-links {
     padding-bottom: 20px;
   }  
@@ -198,6 +202,7 @@ a:hover {
 }
 
 .divider {
+  margin-top: 30px;
   opacity: 40%;
   width: 100px;
 }
@@ -223,6 +228,14 @@ a:hover {
 }
 
 /* About */
+.about .red-text {
+  opacity: 80%;
+}
+
+.red-text:hover {
+  font-weight: bold;
+  opacity: 100%;
+}
 
 .abt-image {
   padding-left: 15px;
