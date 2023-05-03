@@ -12,7 +12,6 @@ ul{
   margin: 0;
   padding: 70px;
   width: 300px;
-  /* background-color: #f1f1f1; */
   height: 100%; /* Full height */
   position: fixed; /* Make it stick, even on scroll */
   overflow: auto; /* Enable scrolling if the sidenav has too much content */
@@ -22,22 +21,29 @@ ul{
   color: #B31B1B;
 }
 
+.underline {
+  text-decoration: #b31b1b2d underline 2.5px;
+  text-underline-offset: 2.5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.underline:hover {
+  background-color: #b31b1b19;
+}
+
 .section-link {
   margin: 7px 2px;
   font-size: 14px;
 }
 
 a:hover {
-  /* color: #3675ade0; */
   color: #B31B1B;
+  text-decoration: none;
 }
 
 a {
   color: black;
-  text-decoration: none;
-}
-
-a:hover {
   text-decoration: none;
 }
 
